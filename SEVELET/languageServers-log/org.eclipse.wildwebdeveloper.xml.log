@@ -1,0 +1,1041 @@
+
+[t=1733904904886] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 2196
+
+
+[t=1733904904946] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":22356,"rootPath":"/C:/Users/Prince Bhardwaj/Desktop/Adv Java/SEVELET/WebMaven/","rootUri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","initializationOptions":{"settings":{"xml":{"codeLens":{"enabled":false},"maven":{},"catalogs":["C:\\Users\\Prince Bhardwaj\\Desktop\\Adv Java\\SEVELET\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml"],"validation":{"schema":{"enabled":"onValidSchema"},"noGrammar":"hint","resolveExternalEntities":false,"enabled":true,"namespaces":{"enabled":"onNamespaceEncountered"},"disallowDocTypeDecl":false}}}},"capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo"},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"foldingRange":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Eclipse IDE","version":"0.14.0.202208241334"},"trace":"off","workspaceFolders":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}]}}
+[t=1733904905766] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","\u003c","\"","\u003d","/","\\","?","\u0027","\u0026"]},"definitionProvider":true,"typeDefinitionProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeLensProvider":{},"documentFormattingProvider":false,"documentRangeFormattingProvider":true,"renameProvider":true,"documentLinkProvider":{"resolveProvider":true},"foldingRangeProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true}},"linkedEditingRangeProvider":true}}}
+[t=1733904905784] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 52
+
+
+[t=1733904905785] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+[t=1733904905824] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","method":"client/registerCapability","params":{"registrations":[{"id":"01ab2dac-47ea-4b6a-ac34-f69a04e451b7","method":"textDocument/codeAction","registerOptions":{"resolveProvider":true}}]}}
+[t=1733904905832] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","method":"client/registerCapability","params":{"registrations":[{"id":"9c6681b6-2318-47dc-a9d7-cc3abc652afa","method":"textDocument/formatting"}]}}
+[t=1733904905854] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 198
+
+
+[t=1733904905858] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733904905863] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","result":[]}
+[t=1733904905860] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 1199
+
+
+[t=1733904905865] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","languageId":"xml","version":1,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app\n    version\u003d\"4.0\"\n    xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\"\n    xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\"\n    xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\"\n    xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\n    xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n  \u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n  \n  \n  \t\u003cservlet\u003e\n  \u003cservlet-name\u003ea\u003c/servlet-name\u003e\n  \u003cservlet-class\u003e/WebMaven\u003c/servlet-class\u003e\n  \t\n  \t\u003c/servlet\u003e\n  \n  \u003cservlet-mapping\u003e\n  \u003cservlet-name\u003ea\u003c/servlet-name\u003e\n  \u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n  \t\n  \t\n  \t\u003c/servlet-mapping\u003e\n  \n  \n  \n\u003c/web-app\u003e\n"}}}
+[t=1733904905874] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733904905874] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":0,"character":18}}}
+[t=1733904905877] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733904905878] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":0,"character":18}}}
+[t=1733904905880] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1733904905881] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":null}
+[t=1733904905883] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1733904905884] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":null}
+[t=1733904905884] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 244
+
+
+[t=1733904905884] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":0,"character":18}}}
+[t=1733904905886] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 202
+
+
+[t=1733904905888] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733904905892] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 208
+
+
+[t=1733904905893] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}],"removed":[]}}}
+[t=1733904906229] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","result":null}
+[t=1733904906232] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"4","result":null}
+[t=1733904906485] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"6","result":[{"startLine":11,"endLine":14},{"startLine":17,"endLine":21},{"startLine":1,"endLine":25}]}
+[t=1733904906632] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","method":"client/registerCapability","params":{"registrations":[{"id":"6ac28552-6566-406e-b2f1-64c49e7aa1c2","method":"workspace/executeCommand","registerOptions":{"commands":["xml.check.bound.grammar","xml.associate.grammar.insert","xml.validation.current.file","xml.check.file.pattern","xml.validation.all.files"]}}]}}
+[t=1733904906633] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"5","result":[]}
+[t=1733904906642] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1733904906643] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","result":null}
+[t=1733904906998] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733904906999] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"8","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":0,"character":18}}}
+[t=1733904907000] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 244
+
+
+[t=1733904907001] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"7","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":0,"character":18}}}
+[t=1733904907776] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"8","result":null}
+[t=1733904907777] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"7","result":[]}
+[t=1733904909401] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733904977350] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 233
+
+
+[t=1733904977350] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"9","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":13,"character":36}}}
+[t=1733904977372] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"9","result":null}
+[t=1733905124220] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 247
+
+
+[t=1733905124221] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"10","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":19,"character":36}}}
+[t=1733905124223] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905124224] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"11","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":19,"character":36}}}
+[t=1733905124225] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"10","result":null}
+[t=1733905124230] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"11","result":[]}
+[t=1733905385619] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905385620] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"12","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":21,"character":3}}}
+[t=1733905385621] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905385621] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"13","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":21,"character":3}}}
+[t=1733905385628] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"12","result":null}
+[t=1733905385629] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"13","result":[]}
+[t=1733905386789] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905386791] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"14","method":"textDocument/formatting","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"options":{"tabSize":4,"insertSpaces":false}}}
+[t=1733905386813] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"14","result":[{"range":{"start":{"line":0,"character":0},"end":{"line":27,"character":0}},"newText":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app version\u003d\"4.0\" xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n\t\u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n\n\n\t\u003cservlet\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003cservlet-class\u003e/WebMaven\u003c/servlet-class\u003e\n\n\t\u003c/servlet\u003e\n\n\t\u003cservlet-mapping\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n\n\n\t\u003c/servlet-mapping\u003e\n\n\n\u003c/web-app\u003e\n"}]}
+[t=1733905386843] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 1242
+
+
+[t=1733905386844] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":2,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":27,"character":0}},"rangeLength":711,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app version\u003d\"4.0\" xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n\t\u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n\n\n\t\u003cservlet\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003cservlet-class\u003e/WebMaven\u003c/servlet-class\u003e\n\n\t\u003c/servlet\u003e\n\n\t\u003cservlet-mapping\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n\n\n\t\u003c/servlet-mapping\u003e\n\n\n\u003c/web-app\u003e\n"}]}}
+[t=1733905387339] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 203
+
+
+[t=1733905387340] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"15","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905387340] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 199
+
+
+[t=1733905387341] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"16","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905387342] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"16","result":[]}
+[t=1733905387349] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"15","result":[{"startLine":5,"endLine":8},{"startLine":11,"endLine":15},{"startLine":1,"endLine":18}]}
+[t=1733905387776] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905387777] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"17","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":20,"character":0}}}
+[t=1733905387780] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905387780] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"17","result":null}
+[t=1733905387780] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"18","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":20,"character":0}}}
+[t=1733905387781] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"18","result":[]}
+[t=1733905388248] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733905390688] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905390690] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"19","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":10,"character":0}}}
+[t=1733905390691] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"19","result":null}
+[t=1733905390694] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905390696] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"20","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":10,"character":0}}}
+[t=1733905390699] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"20","result":[]}
+[t=1733905392525] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 233
+
+
+[t=1733905392525] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"21","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":26}}}
+[t=1733905392528] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"21","result":null}
+[t=1733905393685] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905393687] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"22","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":27}}}
+[t=1733905393689] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905393689] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"23","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":27}}}
+[t=1733905393690] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"22","result":null}
+[t=1733905393691] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"23","result":[]}
+[t=1733905394695] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 233
+
+
+[t=1733905394696] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"24","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":25}}}
+[t=1733905394698] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"24","result":null}
+[t=1733905398909] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 233
+
+
+[t=1733905398909] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"25","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":26}}}
+[t=1733905398913] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"25","result":null}
+[t=1733905399918] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905399921] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"26","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":26}}}
+[t=1733905399927] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905399929] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"27","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":26}}}
+[t=1733905399932] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"26","result":null}
+[t=1733905399934] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"27","result":[]}
+[t=1733905400091] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 325
+
+
+[t=1733905400092] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":3,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":25},"end":{"line":7,"character":26}},"rangeLength":1,"text":""}]}}
+[t=1733905400237] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 325
+
+
+[t=1733905400238] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":4,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":24},"end":{"line":7,"character":25}},"rangeLength":1,"text":""}]}}
+[t=1733905400407] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 325
+
+
+[t=1733905400407] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":5,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":23},"end":{"line":7,"character":24}},"rangeLength":1,"text":""}]}}
+[t=1733905400571] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 325
+
+
+[t=1733905400572] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":6,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":22},"end":{"line":7,"character":23}},"rangeLength":1,"text":""}]}}
+[t=1733905400720] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 325
+
+
+[t=1733905400721] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":7,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":21},"end":{"line":7,"character":22}},"rangeLength":1,"text":""}]}}
+[t=1733905400870] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 325
+
+
+[t=1733905400871] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":8,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":20},"end":{"line":7,"character":21}},"rangeLength":1,"text":""}]}}
+[t=1733905401034] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 325
+
+
+[t=1733905401036] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":9,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":19},"end":{"line":7,"character":20}},"rangeLength":1,"text":""}]}}
+[t=1733905401208] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 326
+
+
+[t=1733905401208] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":10,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":18},"end":{"line":7,"character":19}},"rangeLength":1,"text":""}]}}
+[t=1733905401367] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 326
+
+
+[t=1733905401367] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":11,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":17},"end":{"line":7,"character":18}},"rangeLength":1,"text":""}]}}
+[t=1733905401877] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 199
+
+
+[t=1733905401878] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"29","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905401879] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 203
+
+
+[t=1733905401879] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"28","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905401881] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"29","result":[]}
+[t=1733905401891] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"28","result":[{"startLine":5,"endLine":8},{"startLine":11,"endLine":15},{"startLine":1,"endLine":18}]}
+[t=1733905401938] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905401938] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"30","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":17}}}
+[t=1733905401940] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905401940] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"31","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":17}}}
+[t=1733905401942] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"30","result":null}
+[t=1733905401942] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"31","result":[]}
+[t=1733905402117] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733905405151] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 232
+
+
+[t=1733905405152] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"32","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":0,"character":0}}}
+[t=1733905405154] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"32","result":null}
+[t=1733905429350] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 343
+
+
+[t=1733905429350] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":12,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":7,"character":17},"end":{"line":7,"character":17}},"rangeLength":0,"text":"com.StaticServlet"}]}}
+[t=1733905429858] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 203
+
+
+[t=1733905429859] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"33","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905429860] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 199
+
+
+[t=1733905429861] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"34","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905429863] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"34","result":[]}
+[t=1733905429870] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"33","result":[{"startLine":5,"endLine":8},{"startLine":11,"endLine":15},{"startLine":1,"endLine":18}]}
+[t=1733905429948] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905429948] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"35","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733905429949] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"35","result":null}
+[t=1733905429950] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905429950] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"36","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733905429951] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"36","result":[]}
+[t=1733905430294] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733905430633] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 1122
+
+
+[t=1733905430634] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app version\u003d\"4.0\" xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n\t\u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n\n\n\t\u003cservlet\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003cservlet-class\u003ecom.StaticServlet\u003c/servlet-class\u003e\n\n\t\u003c/servlet\u003e\n\n\t\u003cservlet-mapping\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n\n\n\t\u003c/servlet-mapping\u003e\n\n\n\u003c/web-app\u003e\n"}}
+[t=1733905432501] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 234
+
+
+[t=1733905432501] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"37","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":13,"character":18}}}
+[t=1733905432503] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"37","result":null}
+[t=1733905642994] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 233
+
+
+[t=1733905642995] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"38","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":12,"character":6}}}
+[t=1733905643000] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"38","result":null}
+[t=1733905723687] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905723689] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"39","method":"textDocument/formatting","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"options":{"tabSize":4,"insertSpaces":false}}}
+[t=1733905723696] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"39","result":[{"range":{"start":{"line":0,"character":0},"end":{"line":20,"character":0}},"newText":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app version\u003d\"4.0\" xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n\t\u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n\n\n\t\u003cservlet\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003cservlet-class\u003ecom.StaticServlet\u003c/servlet-class\u003e\n\n\t\u003c/servlet\u003e\n\n\t\u003cservlet-mapping\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n\n\n\t\u003c/servlet-mapping\u003e\n\n\n\u003c/web-app\u003e\n"}]}
+[t=1733905723702] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 1251
+
+
+[t=1733905723703] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":13,"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":20,"character":0}},"rangeLength":665,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app version\u003d\"4.0\" xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n\t\u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n\n\n\t\u003cservlet\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003cservlet-class\u003ecom.StaticServlet\u003c/servlet-class\u003e\n\n\t\u003c/servlet\u003e\n\n\t\u003cservlet-mapping\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n\n\n\t\u003c/servlet-mapping\u003e\n\n\n\u003c/web-app\u003e\n"}]}}
+[t=1733905724099] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 232
+
+
+[t=1733905724100] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"40","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":2,"character":3}}}
+[t=1733905724104] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"40","result":null}
+[t=1733905724209] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 199
+
+
+[t=1733905724210] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"41","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905724211] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"41","result":[]}
+[t=1733905724219] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 203
+
+
+[t=1733905724220] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"42","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905724222] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"42","result":[{"startLine":5,"endLine":8},{"startLine":11,"endLine":15},{"startLine":1,"endLine":18}]}
+[t=1733905724295] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 1122
+
+
+[t=1733905724295] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app version\u003d\"4.0\" xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n\t\u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n\n\n\t\u003cservlet\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003cservlet-class\u003ecom.StaticServlet\u003c/servlet-class\u003e\n\n\t\u003c/servlet\u003e\n\n\t\u003cservlet-mapping\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n\n\n\t\u003c/servlet-mapping\u003e\n\n\n\u003c/web-app\u003e\n"}}
+[t=1733905724468] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 237
+
+
+[t=1733905724470] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"43","method":"textDocument/definition","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":2,"character":4}}}
+[t=1733905724472] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 241
+
+
+[t=1733905724473] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"44","method":"textDocument/typeDefinition","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":2,"character":4}}}
+[t=1733905724492] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"43","result":[{"originSelectionRange":{"start":{"line":2,"character":2},"end":{"line":2,"character":14}},"targetUri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","targetRange":{"start":{"line":2,"character":50},"end":{"line":2,"character":62}},"targetSelectionRange":{"start":{"line":2,"character":50},"end":{"line":2,"character":62}}}]}
+[t=1733905724500] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"44","result":[]}
+[t=1733905724508] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 203
+
+
+[t=1733905724509] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"45","method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905724514] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"45","result":[{"range":{"start":{"line":1,"character":274},"end":{"line":1,"character":324}},"target":"http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"}]}
+[t=1733905724525] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 237
+
+
+[t=1733905724526] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"46","method":"textDocument/definition","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":2,"character":9}}}
+[t=1733905724527] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 241
+
+
+[t=1733905724528] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"47","method":"textDocument/typeDefinition","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":2,"character":9}}}
+[t=1733905724528] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"46","result":[{"originSelectionRange":{"start":{"line":2,"character":2},"end":{"line":2,"character":14}},"targetUri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","targetRange":{"start":{"line":2,"character":50},"end":{"line":2,"character":62}},"targetSelectionRange":{"start":{"line":2,"character":50},"end":{"line":2,"character":62}}}]}
+[t=1733905724530] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"47","result":[]}
+[t=1733905724533] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 203
+
+
+[t=1733905724533] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"48","method":"textDocument/documentLink","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905724534] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"48","result":[{"range":{"start":{"line":1,"character":274},"end":{"line":1,"character":324}},"target":"http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"}]}
+[t=1733905725041] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733905725041] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"49","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733905725043] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733905725043] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"49","result":null}
+[t=1733905725043] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"50","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733905725044] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"50","result":[]}
+[t=1733905725757] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733905748709] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 189
+
+
+[t=1733905748711] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733905748713] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733905748716] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 61
+
+
+[t=1733905748716] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"51","method":"shutdown","params":null}
+[t=1733905748726] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"51","result":{}}
+[t=1733905748728] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 47
+
+
+[t=1733905748729] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[t=1733987611333] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 2196
+
+
+[t=1733987611374] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":16392,"rootPath":"/C:/Users/Prince Bhardwaj/Desktop/Adv Java/SEVELET/WebMaven/","rootUri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","initializationOptions":{"settings":{"xml":{"codeLens":{"enabled":false},"maven":{},"catalogs":["C:\\Users\\Prince Bhardwaj\\Desktop\\Adv Java\\SEVELET\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml"],"validation":{"schema":{"enabled":"onValidSchema"},"noGrammar":"hint","resolveExternalEntities":false,"enabled":true,"namespaces":{"enabled":"onNamespaceEncountered"},"disallowDocTypeDecl":false}}}},"capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo"},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"foldingRange":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Eclipse IDE","version":"0.14.0.202208241334"},"trace":"off","workspaceFolders":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}]}}
+[t=1733987613203] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","\u003c","\"","\u003d","/","\\","?","\u0027","\u0026"]},"definitionProvider":true,"typeDefinitionProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeLensProvider":{},"documentFormattingProvider":false,"documentRangeFormattingProvider":true,"renameProvider":true,"documentLinkProvider":{"resolveProvider":true},"foldingRangeProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true}},"linkedEditingRangeProvider":true}}}
+[t=1733987613218] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 52
+
+
+[t=1733987613219] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+[t=1733987613226] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 202
+
+
+[t=1733987613228] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733987613229] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733987613229] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733987613230] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 1153
+
+
+[t=1733987613231] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","languageId":"xml","version":1,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\n\u003cweb-app version\u003d\"4.0\" xmlns\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:javaee\u003d\"http://xmlns.jcp.org/xml/ns/javaee\" xmlns:xml\u003d\"http://www.w3.org/XML/1998/namespace\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\" xsi:schemaLocation\u003d\"http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd\"\u003e\n\t\u003cdisplay-name\u003eArchetype Created Web Application\u003c/display-name\u003e\n\n\n\t\u003cservlet\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003cservlet-class\u003ecom.StaticServlet\u003c/servlet-class\u003e\n\n\t\u003c/servlet\u003e\n\n\t\u003cservlet-mapping\u003e\n\t\t\u003cservlet-name\u003ea\u003c/servlet-name\u003e\n\t\t\u003curl-pattern\u003e/Static\u003c/url-pattern\u003e\n\n\n\t\u003c/servlet-mapping\u003e\n\n\n\u003c/web-app\u003e\n"}}}
+[t=1733987613231] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 244
+
+
+[t=1733987613231] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733987613232] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733987613233] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733987613233] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 198
+
+
+[t=1733987613233] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733987613235] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 208
+
+
+[t=1733987613235] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}],"removed":[]}}}
+[t=1733987613236] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","method":"client/registerCapability","params":{"registrations":[{"id":"9134b5bf-6f11-449c-a4a3-ae3a7449047b","method":"textDocument/codeAction","registerOptions":{"resolveProvider":true}}]}}
+[t=1733987613239] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","method":"client/registerCapability","params":{"registrations":[{"id":"db8f295b-dce3-44fd-92ca-0fccfdb8c88f","method":"textDocument/formatting"}]}}
+[t=1733987613240] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1733987613241] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":null}
+[t=1733987613241] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1733987613241] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":null}
+[t=1733987613256] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"6","result":[]}
+[t=1733987613291] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","result":null}
+[t=1733987613295] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","result":[{"startLine":5,"endLine":8},{"startLine":11,"endLine":15},{"startLine":1,"endLine":18}]}
+[t=1733987613301] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"4","result":null}
+[t=1733987613496] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","method":"client/registerCapability","params":{"registrations":[{"id":"95cbfb80-acc8-4f9f-aa82-38481c8fe7fb","method":"workspace/executeCommand","registerOptions":{"commands":["xml.check.bound.grammar","xml.associate.grammar.insert","xml.validation.current.file","xml.check.file.pattern","xml.validation.all.files"]}}]}}
+[t=1733987613501] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1733987613501] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","result":null}
+[t=1733987613505] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"5","result":[]}
+[t=1733987613832] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733987613833] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"7","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733987613836] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 244
+
+
+[t=1733987613837] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"8","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":7,"character":34}}}
+[t=1733987614540] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"7","result":null}
+[t=1733987614543] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"8","result":[]}
+[t=1733987616009] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733988114615] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733988114621] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"9","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":10,"character":0}}}
+[t=1733988114623] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733988114624] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"10","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":10,"character":0}}}
+[t=1733988114636] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"9","result":null}
+[t=1733988114652] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"10","result":[]}
+[t=1733988530700] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733988530702] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"11","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":5,"character":1}}}
+[t=1733988530704] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 244
+
+
+[t=1733988530704] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"12","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":5,"character":1}}}
+[t=1733988530721] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"11","result":null}
+[t=1733988530728] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"12","result":[]}
+[t=1733988531032] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 232
+
+
+[t=1733988531033] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"13","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":5,"character":0}}}
+[t=1733988531040] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"13","result":null}
+[t=1733988547980] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 246
+
+
+[t=1733988547982] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"14","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":18,"character":0}}}
+[t=1733988547984] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"14","result":null}
+[t=1733988547984] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 245
+
+
+[t=1733988547985] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"15","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":18,"character":0}}}
+[t=1733988547987] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"15","result":[]}
+[t=1733988735874] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 234
+
+
+[t=1733988735874] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"16","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"},"position":{"line":12,"character":16}}}
+[t=1733988735878] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"16","result":null}
+[t=1733988741322] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 3959
+
+
+[t=1733988741324] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","languageId":"xml","version":1,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\r\n\r\n\u003cproject xmlns\u003d\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\r\n  xsi:schemaLocation\u003d\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\r\n  \u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\r\n\r\n  \u003cgroupId\u003ecom\u003c/groupId\u003e\r\n  \u003cartifactId\u003eWebMaven\u003c/artifactId\u003e\r\n  \u003cversion\u003e0.0.1-SNAPSHOT\u003c/version\u003e\r\n  \u003cpackaging\u003ewar\u003c/packaging\u003e\r\n\r\n  \u003cname\u003eWebMaven Maven Webapp\u003c/name\u003e\r\n  \u003c!-- FIXME change it to the project\u0027s website --\u003e\r\n  \u003curl\u003ehttp://www.example.com\u003c/url\u003e\r\n\r\n  \u003cproperties\u003e\r\n    \u003cproject.build.sourceEncoding\u003eUTF-8\u003c/project.build.sourceEncoding\u003e\r\n    \u003cmaven.compiler.source\u003e8\u003c/maven.compiler.source\u003e\r\n    \u003cmaven.compiler.target\u003e8\u003c/maven.compiler.target\u003e\r\n  \u003c/properties\u003e\r\n\r\n  \u003cdependencies\u003e\r\n    \u003cdependency\u003e\r\n      \u003cgroupId\u003ejunit\u003c/groupId\u003e\r\n      \u003cartifactId\u003ejunit\u003c/artifactId\u003e\r\n      \u003cversion\u003e4.13.1\u003c/version\u003e\r\n      \u003cscope\u003etest\u003c/scope\u003e\r\n    \u003c/dependency\u003e\r\n    \r\n    \u003c!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --\u003e\r\n\u003cdependency\u003e\r\n    \u003cgroupId\u003ejavax.servlet\u003c/groupId\u003e\r\n    \u003cartifactId\u003ejavax.servlet-api\u003c/artifactId\u003e\r\n    \u003cversion\u003e3.1.0\u003c/version\u003e\r\n    \u003cscope\u003eprovided\u003c/scope\u003e\r\n\u003c/dependency\u003e\r\n\r\n    \r\n    \r\n    \r\n    \r\n  \u003c/dependencies\u003e\r\n\r\n  \u003cbuild\u003e\r\n    \u003cfinalName\u003eWebMaven\u003c/finalName\u003e\r\n    \u003cpluginManagement\u003e\u003c!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) --\u003e\r\n      \u003cplugins\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-clean-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.4.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003c!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging --\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-resources-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.3.1\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-compiler-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.13.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-surefire-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.3.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-war-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.4.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-install-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.1.2\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-deploy-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.1.2\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n      \u003c/plugins\u003e\r\n    \u003c/pluginManagement\u003e\r\n  \u003c/build\u003e\r\n\u003c/project\u003e\r\n"}}}
+[t=1733988741421] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 175
+
+
+[t=1733988741422] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"17","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1733988741425] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"17","result":[]}
+[t=1733988741858] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","diagnostics":[]}}
+[t=1733988741936] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 221
+
+
+[t=1733988741937] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"18","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":0,"character":0}}}
+[t=1733988741939] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 220
+
+
+[t=1733988741939] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"19","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":0,"character":0}}}
+[t=1733988741939] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"18","result":null}
+[t=1733988741940] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"19","result":[]}
+[t=1733988741947] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 179
+
+
+[t=1733988741947] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"20","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1733988741956] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"20","result":[{"startLine":15,"endLine":18},{"startLine":22,"endLine":26},{"startLine":30,"endLine":34},{"startLine":21,"endLine":40},{"startLine":47,"endLine":49},{"startLine":52,"endLine":54},{"startLine":56,"endLine":58},{"startLine":60,"endLine":62},{"startLine":64,"endLine":66},{"startLine":68,"endLine":70},{"startLine":72,"endLine":74},{"startLine":46,"endLine":75},{"startLine":45,"endLine":76},{"startLine":43,"endLine":77},{"startLine":2,"endLine":78}]}
+[t=1733988742625] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 209
+
+
+[t=1733988742626] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"21","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":7,"character":22}}}
+[t=1733988742703] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"21","result":{"contents":{"kind":"markdown","value":"**WebMaven Maven Webapp**"},"range":{"start":{"line":7,"character":14},"end":{"line":7,"character":22}}}}
+[t=1733988836201] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 209
+
+
+[t=1733988836203] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"22","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":3,"character":24}}}
+[t=1733988836207] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"22","result":{"contents":{"kind":"markdown","value":"The xsi:schemaLocation attribute can be used in an XML document to reference an XML Schema document that has a target namespace. \r\n```xml  \r\n\u003cns:root  \r\n  xmlns:ns\u003d\"http://example.com/ns\"  \r\n  xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"  \r\n  xsi:schemaLocation\u003d\"http://example.com/ns example.xsd\"\u003e\r\n  \u003c!-- ... --\u003e  \r\n\u003c/ns:root\u003e  \r\n```"},"range":{"start":{"line":3,"character":21},"end":{"line":3,"character":100}}}}
+[t=1733991922561] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 189
+
+
+[t=1733991922565] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml"}}}
+[t=1733991922575] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/src/main/webapp/WEB-INF/web.xml","diagnostics":[]}}
+[t=1733991922640] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 165
+
+
+[t=1733991922642] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1733991922643] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","diagnostics":[]}}
+[t=1733991922642] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 61
+
+
+[t=1733991922643] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"23","method":"shutdown","params":null}
+[t=1733991922656] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"23","result":{}}
+[t=1733991922661] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 47
+
+
+[t=1733991922667] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[t=1734506393812] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 2195
+
+
+[t=1734506393868] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":8996,"rootPath":"/C:/Users/Prince Bhardwaj/Desktop/Adv Java/SEVELET/WebMaven/","rootUri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","initializationOptions":{"settings":{"xml":{"codeLens":{"enabled":false},"maven":{},"catalogs":["C:\\Users\\Prince Bhardwaj\\Desktop\\Adv Java\\SEVELET\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml"],"validation":{"schema":{"enabled":"onValidSchema"},"noGrammar":"hint","resolveExternalEntities":false,"enabled":true,"namespaces":{"enabled":"onNamespaceEncountered"},"disallowDocTypeDecl":false}}}},"capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo"},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"foldingRange":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Eclipse IDE","version":"0.14.0.202208241334"},"trace":"off","workspaceFolders":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}]}}
+[t=1734506397623] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","\u003c","\"","\u003d","/","\\","?","\u0027","\u0026"]},"definitionProvider":true,"typeDefinitionProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeLensProvider":{},"documentFormattingProvider":false,"documentRangeFormattingProvider":true,"renameProvider":true,"documentLinkProvider":{"resolveProvider":true},"foldingRangeProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true}},"linkedEditingRangeProvider":true}}}
+[t=1734506397638] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 52
+
+
+[t=1734506397638] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+[t=1734506397647] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","method":"client/registerCapability","params":{"registrations":[{"id":"96616723-9f59-445d-a23b-cf40687e41b6","method":"textDocument/codeAction","registerOptions":{"resolveProvider":true}}]}}
+[t=1734506397652] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","method":"client/registerCapability","params":{"registrations":[{"id":"65a1b841-3e7f-4bcf-bf8a-26c41a340202","method":"textDocument/formatting"}]}}
+[t=1734506397653] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 3959
+
+
+[t=1734506397653] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","languageId":"xml","version":1,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\r\n\r\n\u003cproject xmlns\u003d\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\r\n  xsi:schemaLocation\u003d\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\r\n  \u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\r\n\r\n  \u003cgroupId\u003ecom\u003c/groupId\u003e\r\n  \u003cartifactId\u003eWebMaven\u003c/artifactId\u003e\r\n  \u003cversion\u003e0.0.1-SNAPSHOT\u003c/version\u003e\r\n  \u003cpackaging\u003ewar\u003c/packaging\u003e\r\n\r\n  \u003cname\u003eWebMaven Maven Webapp\u003c/name\u003e\r\n  \u003c!-- FIXME change it to the project\u0027s website --\u003e\r\n  \u003curl\u003ehttp://www.example.com\u003c/url\u003e\r\n\r\n  \u003cproperties\u003e\r\n    \u003cproject.build.sourceEncoding\u003eUTF-8\u003c/project.build.sourceEncoding\u003e\r\n    \u003cmaven.compiler.source\u003e8\u003c/maven.compiler.source\u003e\r\n    \u003cmaven.compiler.target\u003e8\u003c/maven.compiler.target\u003e\r\n  \u003c/properties\u003e\r\n\r\n  \u003cdependencies\u003e\r\n    \u003cdependency\u003e\r\n      \u003cgroupId\u003ejunit\u003c/groupId\u003e\r\n      \u003cartifactId\u003ejunit\u003c/artifactId\u003e\r\n      \u003cversion\u003e4.13.1\u003c/version\u003e\r\n      \u003cscope\u003etest\u003c/scope\u003e\r\n    \u003c/dependency\u003e\r\n    \r\n    \u003c!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --\u003e\r\n\u003cdependency\u003e\r\n    \u003cgroupId\u003ejavax.servlet\u003c/groupId\u003e\r\n    \u003cartifactId\u003ejavax.servlet-api\u003c/artifactId\u003e\r\n    \u003cversion\u003e3.1.0\u003c/version\u003e\r\n    \u003cscope\u003eprovided\u003c/scope\u003e\r\n\u003c/dependency\u003e\r\n\r\n    \r\n    \r\n    \r\n    \r\n  \u003c/dependencies\u003e\r\n\r\n  \u003cbuild\u003e\r\n    \u003cfinalName\u003eWebMaven\u003c/finalName\u003e\r\n    \u003cpluginManagement\u003e\u003c!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) --\u003e\r\n      \u003cplugins\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-clean-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.4.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003c!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging --\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-resources-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.3.1\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-compiler-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.13.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-surefire-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.3.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-war-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.4.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-install-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.1.2\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-deploy-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.1.2\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n      \u003c/plugins\u003e\r\n    \u003c/pluginManagement\u003e\r\n  \u003c/build\u003e\r\n\u003c/project\u003e\r\n"}}}
+[t=1734506397655] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 174
+
+
+[t=1734506397656] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1734506397658] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 219
+
+
+[t=1734506397658] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":0,"character":0}}}
+[t=1734506397659] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 220
+
+
+[t=1734506397660] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":0,"character":0}}}
+[t=1734506397660] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 178
+
+
+[t=1734506397660] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1734506397661] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1734506397661] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":null}
+[t=1734506397661] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1734506397661] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":null}
+[t=1734506397663] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 208
+
+
+[t=1734506397663] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}],"removed":[]}}}
+[t=1734506397697] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","result":[]}
+[t=1734506397963] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"5","result":null}
+[t=1734506397970] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","result":[{"startLine":15,"endLine":18},{"startLine":22,"endLine":26},{"startLine":30,"endLine":34},{"startLine":21,"endLine":40},{"startLine":47,"endLine":49},{"startLine":52,"endLine":54},{"startLine":56,"endLine":58},{"startLine":60,"endLine":62},{"startLine":64,"endLine":66},{"startLine":68,"endLine":70},{"startLine":72,"endLine":74},{"startLine":46,"endLine":75},{"startLine":45,"endLine":76},{"startLine":43,"endLine":77},{"startLine":2,"endLine":78}]}
+[t=1734506398080] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","method":"client/registerCapability","params":{"registrations":[{"id":"b5a70396-fdb3-4c1d-93d0-941c45940998","method":"workspace/executeCommand","registerOptions":{"commands":["xml.check.bound.grammar","xml.associate.grammar.insert","xml.validation.current.file","xml.check.file.pattern","xml.validation.all.files"]}}]}}
+[t=1734506398082] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"4","result":[]}
+[t=1734506398084] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1734506398084] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","result":null}
+[t=1734506399352] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","diagnostics":[]}}
+[t=1734506512955] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 192
+
+
+[t=1734506512955] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/","name":"JDBC"}],"removed":[]}}}
+[t=1734506513445] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 292
+
+
+[t=1734506513446] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/Dynamic/","name":"Dynamic"},{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/User/","name":"User"}],"removed":[]}}}
+[t=1734509906796] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 165
+
+
+[t=1734509906798] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1734509906799] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 60
+
+
+[t=1734509906799] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","method":"shutdown","params":null}
+[t=1734509906808] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","diagnostics":[]}}
+[t=1734509906827] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"6","result":{}}
+[t=1734509906828] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 47
+
+
+[t=1734509906828] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"exit","params":null}
+[t=1734588093494] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 2463
+
+
+[t=1734588093539] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","method":"initialize","params":{"processId":8272,"rootPath":"/C:/Users/Prince Bhardwaj/Desktop/Adv Java/SEVELET/WebMaven/","rootUri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","initializationOptions":{"settings":{"xml":{"codeLens":{"enabled":false},"maven":{},"catalogs":["C:\\Users\\Prince Bhardwaj\\Desktop\\Adv Java\\SEVELET\\.metadata\\.plugins\\org.eclipse.wildwebdeveloper.xml\\system-catalog.xml"],"validation":{"schema":{"enabled":"onValidSchema"},"noGrammar":"hint","resolveExternalEntities":false,"enabled":true,"namespaces":{"enabled":"onNamespaceEncountered"},"disallowDocTypeDecl":false}}}},"capabilities":{"workspace":{"applyEdit":true,"workspaceEdit":{"documentChanges":true,"resourceOperations":["create","delete","rename"],"failureHandling":"undo"},"symbol":{"dynamicRegistration":true},"executeCommand":{"dynamicRegistration":true},"workspaceFolders":true},"textDocument":{"synchronization":{"willSave":true,"willSaveWaitUntil":true,"didSave":true},"completion":{"completionItem":{"snippetSupport":true,"documentationFormat":["markdown","plaintext"]}},"hover":{"contentFormat":["markdown","plaintext"]},"signatureHelp":{},"references":{},"documentHighlight":{},"documentSymbol":{"symbolKind":{"valueSet":[18,17,5,14,9,10,22,24,8,1,12,11,20,6,2,3,21,16,19,25,4,7,15,23,26,13]},"hierarchicalDocumentSymbolSupport":true},"formatting":{"dynamicRegistration":true},"rangeFormatting":{},"definition":{"linkSupport":true},"typeDefinition":{"linkSupport":true},"codeAction":{"codeActionLiteralSupport":{"codeActionKind":{"valueSet":["quickfix","refactor","refactor.extract","refactor.inline","refactor.rewrite","source","source.organizeImports"]}},"dataSupport":true,"resolveSupport":{"properties":["edit"]},"dynamicRegistration":true},"codeLens":{},"documentLink":{},"colorProvider":{},"rename":{"prepareSupport":true},"foldingRange":{}},"window":{"workDoneProgress":true,"showMessage":{},"showDocument":{"support":true}}},"clientInfo":{"name":"Eclipse IDE","version":"0.14.0.202208241334"},"trace":"off","workspaceFolders":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/Dynamic/","name":"Dynamic"},{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/","name":"JDBC"},{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/User/","name":"User"},{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}]}}
+[t=1734588097917] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","result":{"capabilities":{"textDocumentSync":2,"hoverProvider":true,"completionProvider":{"resolveProvider":true,"triggerCharacters":[".",":","\u003c","\"","\u003d","/","\\","?","\u0027","\u0026"]},"definitionProvider":true,"typeDefinitionProvider":true,"referencesProvider":true,"documentHighlightProvider":true,"documentSymbolProvider":true,"codeLensProvider":{},"documentFormattingProvider":false,"documentRangeFormattingProvider":true,"renameProvider":true,"documentLinkProvider":{"resolveProvider":true},"foldingRangeProvider":true,"workspace":{"workspaceFolders":{"supported":true,"changeNotifications":true}},"linkedEditingRangeProvider":true}}}
+[t=1734588097941] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 52
+
+
+[t=1734588097942] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"initialized","params":{}}
+[t=1734588097953] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 3959
+
+
+[t=1734588097958] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didOpen","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","languageId":"xml","version":1,"text":"\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e\r\n\r\n\u003cproject xmlns\u003d\"http://maven.apache.org/POM/4.0.0\" xmlns:xsi\u003d\"http://www.w3.org/2001/XMLSchema-instance\"\r\n  xsi:schemaLocation\u003d\"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd\"\u003e\r\n  \u003cmodelVersion\u003e4.0.0\u003c/modelVersion\u003e\r\n\r\n  \u003cgroupId\u003ecom\u003c/groupId\u003e\r\n  \u003cartifactId\u003eWebMaven\u003c/artifactId\u003e\r\n  \u003cversion\u003e0.0.1-SNAPSHOT\u003c/version\u003e\r\n  \u003cpackaging\u003ewar\u003c/packaging\u003e\r\n\r\n  \u003cname\u003eWebMaven Maven Webapp\u003c/name\u003e\r\n  \u003c!-- FIXME change it to the project\u0027s website --\u003e\r\n  \u003curl\u003ehttp://www.example.com\u003c/url\u003e\r\n\r\n  \u003cproperties\u003e\r\n    \u003cproject.build.sourceEncoding\u003eUTF-8\u003c/project.build.sourceEncoding\u003e\r\n    \u003cmaven.compiler.source\u003e8\u003c/maven.compiler.source\u003e\r\n    \u003cmaven.compiler.target\u003e8\u003c/maven.compiler.target\u003e\r\n  \u003c/properties\u003e\r\n\r\n  \u003cdependencies\u003e\r\n    \u003cdependency\u003e\r\n      \u003cgroupId\u003ejunit\u003c/groupId\u003e\r\n      \u003cartifactId\u003ejunit\u003c/artifactId\u003e\r\n      \u003cversion\u003e4.13.1\u003c/version\u003e\r\n      \u003cscope\u003etest\u003c/scope\u003e\r\n    \u003c/dependency\u003e\r\n    \r\n    \u003c!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --\u003e\r\n\u003cdependency\u003e\r\n    \u003cgroupId\u003ejavax.servlet\u003c/groupId\u003e\r\n    \u003cartifactId\u003ejavax.servlet-api\u003c/artifactId\u003e\r\n    \u003cversion\u003e3.1.0\u003c/version\u003e\r\n    \u003cscope\u003eprovided\u003c/scope\u003e\r\n\u003c/dependency\u003e\r\n\r\n    \r\n    \r\n    \r\n    \r\n  \u003c/dependencies\u003e\r\n\r\n  \u003cbuild\u003e\r\n    \u003cfinalName\u003eWebMaven\u003c/finalName\u003e\r\n    \u003cpluginManagement\u003e\u003c!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) --\u003e\r\n      \u003cplugins\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-clean-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.4.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003c!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging --\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-resources-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.3.1\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-compiler-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.13.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-surefire-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.3.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-war-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.4.0\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-install-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.1.2\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n        \u003cplugin\u003e\r\n          \u003cartifactId\u003emaven-deploy-plugin\u003c/artifactId\u003e\r\n          \u003cversion\u003e3.1.2\u003c/version\u003e\r\n        \u003c/plugin\u003e\r\n      \u003c/plugins\u003e\r\n    \u003c/pluginManagement\u003e\r\n  \u003c/build\u003e\r\n\u003c/project\u003e\r\n"}}}
+[t=1734588097960] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 178
+
+
+[t=1734588097961] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","method":"textDocument/foldingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1734588097965] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 220
+
+
+[t=1734588097967] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","method":"textDocument/linkedEditingRange","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":0,"character":0}}}
+[t=1734588097967] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 219
+
+
+[t=1734588097967] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"5","method":"textDocument/documentHighlight","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"},"position":{"line":0,"character":0}}}
+[t=1734588097970] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 174
+
+
+[t=1734588097973] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"4","method":"textDocument/codeLens","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1734588097974] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 476
+
+
+[t=1734588097974] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"workspace/didChangeWorkspaceFolders","params":{"event":{"added":[{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/Dynamic/","name":"Dynamic"},{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/","name":"JDBC"},{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/JDBC/User/","name":"User"},{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/","name":"WebMaven"}],"removed":[]}}}
+[t=1734588097983] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"1","method":"client/registerCapability","params":{"registrations":[{"id":"5d885cdd-fc7b-467e-bf6a-7dd16cd73331","method":"textDocument/codeAction","registerOptions":{"resolveProvider":true}}]}}
+[t=1734588097987] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1734588097988] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"1","result":null}
+[t=1734588097991] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","method":"client/registerCapability","params":{"registrations":[{"id":"ce87cb38-28be-4868-ac8b-01925cbb7f5a","method":"textDocument/formatting"}]}}
+[t=1734588097994] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1734588097994] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"2","result":null}
+[t=1734588098033] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"4","result":[]}
+[t=1734588098440] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","result":[{"startLine":15,"endLine":18},{"startLine":22,"endLine":26},{"startLine":30,"endLine":34},{"startLine":21,"endLine":40},{"startLine":47,"endLine":49},{"startLine":52,"endLine":54},{"startLine":56,"endLine":58},{"startLine":60,"endLine":62},{"startLine":64,"endLine":66},{"startLine":68,"endLine":70},{"startLine":72,"endLine":74},{"startLine":46,"endLine":75},{"startLine":45,"endLine":76},{"startLine":43,"endLine":77},{"startLine":2,"endLine":78}]}
+[t=1734588098442] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"2","result":null}
+[t=1734588098707] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"3","method":"client/registerCapability","params":{"registrations":[{"id":"607ca4bd-849e-4909-98b7-8e1a5565a4db","method":"workspace/executeCommand","registerOptions":{"commands":["xml.check.bound.grammar","xml.associate.grammar.insert","xml.validation.current.file","xml.check.file.pattern","xml.validation.all.files"]}}]}}
+[t=1734588098710] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"5","result":[]}
+[t=1734588098711] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 40
+
+
+[t=1734588098712] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"3","result":null}
+[t=1734588103331] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","diagnostics":[]}}
+[t=1734588132530] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 165
+
+
+[t=1734588132531] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"textDocument/didClose","params":{"textDocument":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml"}}}
+[t=1734588132531] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 60
+
+
+[t=1734588132531] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","id":"6","method":"shutdown","params":null}
+[t=1734588132533] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"uri":"file:///C:/Users/Prince%20Bhardwaj/Desktop/Adv%20Java/SEVELET/WebMaven/pom.xml","diagnostics":[]}}
+[t=1734588132548] org.eclipse.wildwebdeveloper.xml to LSP4E:
+{"jsonrpc":"2.0","id":"6","result":{}}
+[t=1734588132549] LSP4E to org.eclipse.wildwebdeveloper.xml:
+Content-Length: 47
+
+
+[t=1734588132550] LSP4E to org.eclipse.wildwebdeveloper.xml:
+{"jsonrpc":"2.0","method":"exit","params":null}
